@@ -1,0 +1,444 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* main hr {
+    border: 0%;
+    height: 1.2px;
+    width: 85%;
+    margin: 45px 84px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(07, 17, 28);
+    color: rgb(246, 234, 234);
+    font-family: sans-serif Arial, Helvetica, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    scrollbar-width: none;
+}
+
+nav {
+    background-color: #2b76c5;
+    height: 68px;
+    width: 100%;
+    font-size: 2vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 30px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(222, 222, 230, 0.977);
+    position: relative;
+}
+
+nav ul li a:hover {
+    text-decoration: double;
+    text-transform: var(firstSection);
+    font-size: initial;
+    color: black;
+    position: relative;
+}
+
+.left {
+    font-size: 1.4rem;
+}
+
+.firstSection {
+    background-image: url("mainbg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: black;
+}
+
+.firstSection div {
+    margin-top: 3rem;
+    width: 45%;
+    font-size: 25px;
+}
+
+.leftSection {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rightSection img {
+    height: 100%;
+    margin: 10px 0px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.main-intro2 {
+    background-color: rgb(3, 3, 18);
+    width: 2px;
+    height: 35%;
+    padding: 1vh;
+    border-radius: 1.5rem;
+    border-color: white;
+    border-style: solid;
+}
+
+#intro1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+#intro2 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-style: normal;
+}
+
+#element {
+    color: rgb(116, 255, 24);
+    border-top: 1cap;
+    border-color: white;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.link a {
+    display: grid;
+    text-align: center;
+}
+
+#resume {
+    background-color: lavender;
+    color: #000204;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    padding: 2%;
+    font-size: medium;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#github {
+    background-color: lavender;
+    color: #000204;
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding: 2%;
+    font-style: italic;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.secondsection {
+    height: 730px;
+    width: 1250px;
+    margin-left: 7%;
+    background-image: url("secondlayout-removebg-preview.png");
+    background-size: cover;
+    border-color: rgba(242, 244, 239, 0.694);
+    border-style: dashed;
+    background-color: rgb(14, 25, 55);
+    border-radius: 40px;
+    color: white;
+    display: flex;
+}
+
+.secondlayout {
+    color: #020D19;
+    background-color: #f1f4f6;
+    border-color: cadetblue;
+    margin-left: 60%;
+    border-radius: 2rem;
+    border-style: solid;
+    margin-top: 8rem;
+    margin-right: 15%;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    display: block;
+    justify-content: center;
+}
+
+h2 {
+    color: #020D19;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.secondlayout ul {
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.secondlayout ul li {
+    width: auto;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+}
+
+.qualification {
+    position: relative;
+}
+
+.qualification p {
+    animation-play-state: initial;
+    background-color: #9BE4CC;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 82px;
+    border-top-right-radius: 40vw;
+    border-bottom-left-radius: 30vw;
+    border-radius: 1.5px solid black;
+    height: 43px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 5s;
+    transition-delay: 1s;
+    font-size: 27px;
+    font-style: oblique;
+    animation: 10s infinite;
+}
+
+.qualification div {
+    width: 45%;
+    height: 400px;
+    margin-left: 3rem;
+    display: inline-flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.leftside {
+    color: lavender;
+    background-image: url(screeentablogobgremove.png);
+    background-size: cover;
+    /* opacity: 0.4; */
+    margin-top: 50px;
+}
+
+.rightside {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 5px;
+    height: 10px;
+    width: 25%;
+}
+
+.rightside {
+    border-color: #492278;
+    border-style: double;
+    border-radius: 120px;
+}
+
+.aboutself ul {
+    margin-top: 3rem;
+    font-style: oblique;
+    /* list-style-type: circle; */
+}
+
+.aboutself ul {
+    color: #E3F6F7;
+    border-color: #000000;
+    /* text-transform: capitalize;
+    transition: 2s solid black;
+    transition-delay: 1s solid #87ce1c; */
+}
+
+.aboutself ul li {
+    margin: 1rem;
+    font-size: medium;
+}
+
+.edu {
+    /* background-color: green; */
+    background-image: url(edu-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* opacity: 0.4; */
+    height: 400px;
+    font-weight: bold;
+    font-size: x-large;
+    width: 85%;
+    /* opacity: 70%; */
+    margin-top: 0.5rem;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.study li {
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    margin-top: 30px;
+}
+
+.edu p {
+    color: lavender;
+}
+
+.contact {
+    color: white;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-para {
+    background-color: #131934;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-left: 40%;
+    width: 20%;
+}
+
+.contact-icons {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    font-size: x-large;
+    font-style: oblique;
+    border-image-width: 20%;
+}
+
+.form {
+    font-family: normal,'Outfit''Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(#ffdad5,#fff7f9); */
+    /* background-color: #E4B2B2; */
+    background-color: #2b76c5;
+    color: black;
+    gap: 20px;
+    height: 440px;
+    width: 40%;
+    margin-top: 4rem;
+    margin-left: 30%;
+    padding: 2vh;
+    border-radius: 20px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.formhr {
+    border: none;
+    width: 100px;
+    height: 5px;
+    background-color: lavender;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.contact-input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    border-radius: 50px;
+}
+
+.contact-input:focus {
+    border: 2px solid #16e4bb;
+}
+
+.contact-left textarea {
+    height: 110px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
+.contact-left button {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: black;
+    gap: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.sociallife {
+    background-color: rgb(80, 86, 199);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 115px;
+    margin-left: 23%;
+    width: 55%;
+}
+
+.socialicons {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left img {
+    height: 15px;
+}
+
+/*  footer */
+
+.footertext-center {
+    background-color: #020D19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-top: 2px solid grey;
+    margin-top: 5vh;
+}
